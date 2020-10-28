@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Booking</title>
+    <script type="text/javascript" src="pickmeup.min.js"></script>
+    <script type="text/javascript" src="handleCounter.js"></script>
+    <link rel="stylesheet" type="text/css" href="pickmeup.css">
+    <link rel="stylesheet" type="text/css" href="handle-counter.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript" src="jquery.scrollUp.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+
+
+
+</head>
+
+<body>
+    <header class="tm-header">
+        <img class="tm-logo" src="logo3.png" alt="Hotel Royal Palace">
+        <nav class="tm-nav">
+            <div>
+                <ul>
+                    <li class="tm-list"><a href="/">Home</a></li>
+                    <li class="tm-list"><a href="/explore">Facilities</a></li>
+                    <li class="tm-list"><a href="/index1">Rooms</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="tm-main">
+        <p>Booking</p>
+    </section>
+
+
+
+    <section class="tm-booking">
+
+        <form action="/index" method="POST">
+            <div class="tm-form1">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="E-mail">
+                <label for="rooms" id="inlinelable">Rooms</label>
+                <select name="Rooms" id="rooms">
+          <option value="luxurys">Luxury Suite</option>
+          <option value="deluxs">Delux Suite</option>
+          <option value="premiers">Premier Suite</option>
+          <option value="Luxury">Luxury Room</option>
+          <option value="deluxs">Delux Room</option>
+          <option value="premierr">Premier Room</option>
+        </select>
+
+
+
+
+
+
+                <div class="tm-num1" id="handleCounter1">
+                    <label for="number1">Number of Rooms</label><br/>
+                    <input type="text" name="number1" id="number1">
+                </div>
+                <div class="tm-num2" id="handleCounter2">
+                    <label for="number2">Number of Guests</label><br />
+                    <input type="text" name="number2" id="number2">
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="vertical-line"> </div>
+
+            <div class="tm-form2">
+                <div class="tm-cl">
+                    <label for="date1" class="arrival">Visiting Dates from Arrival to Departure</label>
+
+                    <input type="date" id="start" name="arrival">
+                    <br><br><br>
+                    <input type="date" id="departure" name="departure">
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                    <input type="submit" id="sub" value="Proceed">
+                </div>
+            </div>
+        </form>
+    </section>
+
+
+</body>
+
+</html>

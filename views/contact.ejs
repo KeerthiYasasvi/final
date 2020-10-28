@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hotel Royal Palace</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="pickmeup.min.js"></script>
+    <script type="text/javascript" src="handleCounter.js"></script>
+    <link rel="stylesheet" type="text/css" href="pickmeup.css">
+    <link rel="stylesheet" type="text/css" href="handle-counter.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript" src="jquery.scrollUp.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly">
+    </script>
+
+
+
+</head>
+
+<body>
+    <header class="tm-header">
+        <img class="tm-logo" src="logo3.png" alt="Hotel Royal Palace">
+        <nav class="tm-nav">
+            <div>
+                <ul>
+                    <li class="tm-list"><a href="/">Home</a></li>
+                    <li class="tm-list"><a href="/explore">Facilities</a></li>
+                    <li class="tm-list"><a href="/index1">Rooms</a></li>
+                    <li class="tm-list"><a href="/index">Booking</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="tm-main">
+        <p>Contact</p>
+    </section>
+
+
+
+    <section class="tm-booking">
+
+        <form action="/contact" method="POST">
+            <div class="tm-form1">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="E-mail">
+                <textarea name="complain" placeholder="Your message..." rows="4"></textarea>
+
+                <button type="submit" id="sub2" name="button">Send</button>
+
+
+            </div>
+        </form>
+
+        <div class="vertical-line"> </div>
+
+        <div class="tm-form2">
+            <div class="tm-cl">
+                <p class="here">We are situated over here</p><img id="place" src="placeholder.png">
+
+                <div id="map"></div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="tm-footer">
+        <div class="tm-us">
+            <p class="bold">About Us</p>
+            <p>We are a part of chain of luxury hotels. We provide a luxorious stay with various value added and free services which will make you visit us over and over again.</p>
+        </div>
+
+        <div class="tm-address">
+            <p class="bold">Address</p>
+            <p>415. tokyo, Japan Phone : (+81) 9275693451 Email : royal@info.com</p>
+        </div>
+        <br />
+        <div class="tm-media">
+            <a href="#"> <img src="fb.png"></a>
+            <a href="#"> <img src="G.png"> </a>
+            <a href="#"> <img src="twittr.png"> </a>
+            <a href="#"> <img src="insta.png"> </a>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

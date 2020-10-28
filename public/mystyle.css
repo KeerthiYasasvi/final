@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px overflow-x hidden;
+}
+
+a:link {
+    color: red;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 10), rgba(0, 0, 0, 0.3)), url("room.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: norepeat;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.row {
+    max-width: 1180px;
+    margin: 0px auto;
+}
+
+.logo {
+    height: 170px;
+    width: auto;
+    margin-top: 55px;
+    margin-left: -145px;
+    border: 1px solid black;
+}
+
+.main-nav {
+    float: right;
+    margin: 10px
+}
+
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    margin-right: -80px;
+    margin-top: 40px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.main-content-header {
+    width: 1180px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin-top: -20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s, color 0.2;
+}
+
+.btn-full {
+    background-color: transparent;
+    color: skyblue;
+    margin-right: 15px;
+    border: 1px solid skyblue;
+    font-color: skyblue;
+}
+
+.btn-full:hover {
+    background-color: white;
+}
+
+.btn-nav {
+    background-color: transparent;
+    color: skyblue;
+    margin-right: 15px;
+    border: 1px solid skyblue;
+    font-color: skyblue;
+}
+
+.btn-nav:hover {
+    backgroundcolor: purple
+}
+
+.colorchange {
+    animation: colorchangethapa 1s infinite;
+}
+
+@keyframes colorchangethapa {
+    0% {
+        color: red
+    }
+    25% {
+        color: white
+    }
+    50% {
+        color: skyblue
+    }
+    100% {
+        color: purple
+    }
+}
+
+ul :hover {
+    background-color: gray;
+    color: black;
+    padding: 2px;
+}
+
+.nownew {
+    margin-top: 340px;
+    display: inline-block;
+}
+
+.text {
+    display: inline-block;
+    margin-top: 8px;
+    color: white;
+}
